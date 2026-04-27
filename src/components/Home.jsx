@@ -35,38 +35,38 @@ export default function Home() {
             </div>
           </div>
           
-          <h1 className="mb-6 text-7xl font-black leading-[0.9] text-white lg:text-[110px] tracking-tighter uppercase drop-shadow-2xl">
+          <h1 className="mb-6 text-5xl sm:text-7xl font-black leading-[0.9] text-white lg:text-[110px] tracking-tighter uppercase drop-shadow-2xl">
             DARK <br /> <span className="text-blue-600">SQUAD</span>
           </h1>
           
-          <p className="mb-10 text-lg text-gray-300 leading-relaxed max-w-xl font-medium drop-shadow-lg">
+          <p className="mb-10 text-base sm:text-lg text-gray-300 leading-relaxed max-w-xl font-medium drop-shadow-lg">
             A government agency recruits some of the most dangerous incarcerated supervillains 
             on the planet to execute dangerous black ops missions in exchange for clemency.
           </p>
 
-          <div className="flex flex-wrap gap-5">
-            <button className="flex items-center gap-3 rounded-xl bg-white px-10 py-4 font-black text-black transition-all hover:bg-blue-600 hover:text-white hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] active:scale-95">
-              <FaPlay className="text-sm" />
+          <div className="flex flex-wrap gap-4 sm:gap-5">
+            <button className="flex items-center justify-center gap-3 rounded-xl bg-white px-8 sm:px-10 py-3.5 sm:py-4 font-black text-black transition-all hover:bg-blue-600 hover:text-white hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] active:scale-95 text-sm sm:text-base w-full sm:w-auto">
+              <FaPlay className="text-[10px] sm:text-sm" />
               WATCH NOW
             </button>
-            <button className="flex items-center gap-3 rounded-xl border-2 border-white/10 bg-white/5 px-10 py-4 font-black text-white backdrop-blur-xl transition-all hover:bg-white/10 hover:border-white/20 active:scale-95">
-              <FaInfoCircle className="text-sm" />
+            <button className="flex items-center justify-center gap-3 rounded-xl border-2 border-white/10 bg-white/5 px-8 sm:px-10 py-3.5 sm:py-4 font-black text-white backdrop-blur-xl transition-all hover:bg-white/10 hover:border-white/20 active:scale-95 text-sm sm:text-base w-full sm:w-auto">
+              <FaInfoCircle className="text-[10px] sm:text-sm" />
               DETAILS
             </button>
           </div>
 
-          <div className="mt-16 flex items-center gap-12">
+          <div className="mt-12 sm:mt-16 flex flex-wrap items-center gap-8 sm:gap-12">
             <div>
-              <p className="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-2">Director</p>
-              <p className="text-white font-bold">James Gunn</p>
+              <p className="text-[10px] sm:text-[11px] font-black text-gray-500 uppercase tracking-widest mb-1 sm:mb-2">Director</p>
+              <p className="text-sm sm:text-base text-white font-bold">James Gunn</p>
             </div>
             <div>
-              <p className="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-2">Genre</p>
-              <p className="text-white font-bold">Action, Sci-Fi</p>
+              <p className="text-[10px] sm:text-[11px] font-black text-gray-500 uppercase tracking-widest mb-1 sm:mb-2">Genre</p>
+              <p className="text-sm sm:text-base text-white font-bold">Action, Sci-Fi</p>
             </div>
             <div>
-              <p className="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-2">Release</p>
-              <p className="text-white font-bold">Aug 2026</p>
+              <p className="text-[10px] sm:text-[11px] font-black text-gray-500 uppercase tracking-widest mb-1 sm:mb-2">Release</p>
+              <p className="text-sm sm:text-base text-white font-bold">Aug 2026</p>
             </div>
           </div>
         </div>

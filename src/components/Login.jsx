@@ -6,8 +6,8 @@ export default function Login() {
   return (
     <div className="min-h-screen bg-[#131722] text-white">
       <Nav />
-      <div className="flex min-h-screen items-center justify-center px-6 py-12">
-        <div className="w-full max-w-md space-y-8 rounded-3xl bg-[#1c222e] p-10 shadow-2xl border border-white/5">
+      <div className="flex min-h-screen items-center justify-center px-4 sm:px-6 py-12">
+        <div className="w-full max-w-md space-y-8 rounded-3xl bg-[#1c222e] p-6 sm:p-10 shadow-2xl border border-white/5">
           <div className="text-center">
             <h2 className="text-3xl font-black uppercase tracking-widest">
               Welcome <span className="text-blue-600">Back</span>
